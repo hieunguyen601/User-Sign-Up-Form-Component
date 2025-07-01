@@ -5,10 +5,10 @@ function showPassword() {
 
     if (passwordInput.type === 'password') {
         passwordInput.type = 'text';
-        toggleButton.textContent = 'Hide'
+        toggleButton.innerHTML = 'Hide'
     } else {
         passwordInput.type = 'password';
-        toggleButton.textContent = 'Show';
+        toggleButton.innerHTML = 'Show';
     }
 }
 
