@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(rgba(240, 68, 46, 0.5)),
+                url(./images/bg-intro-desktop.png);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.containter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(152, 5, 5);
+}
+
+.coding-image {
+    border-radius: 10px;
+}
