@@ -2,13 +2,12 @@ const passwordInput = document.querySelector('#password-input');
 const toggleButton = document.querySelector('.show-password');
 
 function showPassword() {
-
     if (passwordInput.type === 'password') {
         passwordInput.type = 'text';
-        toggleButton.innerHTML = 'Hide'
+        toggleButton.innerHTML = '🙈 Hide';
     } else {
         passwordInput.type = 'password';
-        toggleButton.innerHTML = 'Show';
+        toggleButton.innerHTML = '👁️ Show';
     }
 }
 
